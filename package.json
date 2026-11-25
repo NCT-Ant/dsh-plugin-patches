@@ -1,0 +1,33 @@
+{
+  "name": "dsh-plugin-patches",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Compatibility patch scripts for DeepSeek Harness plugins: adds the MiniMax official video protocol family to dsh-imagegen-video and repairs the dsh-at-file host API drift.",
+  "license": "MIT",
+  "author": "Benzalkonium chloride",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NCT-Ant/dsh-plugin-patches.git"
+  },
+  "homepage": "https://github.com/NCT-Ant/dsh-plugin-patches#readme",
+  "bugs": {
+    "url": "https://github.com/NCT-Ant/dsh-plugin-patches/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "patch",
+    "minimax",
+    "video-generation",
+    "dsh-at-file"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "patch-minimax-official.cjs",
+    "repair-dsh-at-file.cjs",
+    "README.md",
+    "LICENSE"
+  ]
+}
