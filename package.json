@@ -1,7 +1,6 @@
 {
   "name": "dsh-plugin-patches",
   "version": "1.0.0",
-  "private": true,
   "description": "Compatibility patch scripts for DeepSeek Harness plugins: adds the MiniMax official video protocol family to dsh-imagegen-video and repairs the dsh-at-file host API drift.",
   "license": "MIT",
   "author": "Benzalkonium chloride",
